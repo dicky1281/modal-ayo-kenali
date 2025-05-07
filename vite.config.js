@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue(), tailwindcss()],
   build: {
     lib: {
-      entry: "./src/index.js",
+      entry: "./src/main.js",
       name: "ModalKenali",
       fileName: "vue-modal-kenali",
       formats: ["es", "umd"],
